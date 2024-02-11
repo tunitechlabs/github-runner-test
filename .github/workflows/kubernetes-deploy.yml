@@ -6,7 +6,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: "self-hosted"  # (optional) name of the runner labels, groupss
+    runs-on: "self-hosted"  # (optional) name of the runner labels, groups
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
